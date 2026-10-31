@@ -274,3 +274,4 @@ def remove_product_from_plan(
     db.delete(plan_prod)
     db.commit()
     return {"message": "Product removed from plan"}
+

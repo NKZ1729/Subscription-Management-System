@@ -250,3 +250,4 @@ def delete_product_variant(
     variant.is_active = False
     db.commit()
     return {"message": f"Variant '{variant.variant_name}' has been deactivated"}
+
