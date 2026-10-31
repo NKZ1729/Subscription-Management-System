@@ -33,3 +33,4 @@ class FinanceDashboardResponse(BaseModel):
     arr_estimate: Decimal  # Annual Recurring Revenue
     recent_overdue_invoices: List[OverdueInvoiceSummary] = []
     revenue_trend: List[MonthlyRevenuePoint] = []
+

@@ -253,3 +253,4 @@ def run_billing_day(
             records.append(failed_record)
 
     return subscriptions_processed, invoices_generated, total_billed, errors_count, records
+

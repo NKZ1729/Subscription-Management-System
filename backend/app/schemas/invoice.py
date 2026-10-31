@@ -67,3 +67,4 @@ class InvoiceResponse(BaseModel):
 class InvoiceStatusUpdate(BaseModel):
     status: Literal["Confirmed", "Cancelled"]
     note: Optional[str] = None
+

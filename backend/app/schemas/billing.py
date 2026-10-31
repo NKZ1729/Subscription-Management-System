@@ -35,3 +35,4 @@ class BillingRunResponse(BaseModel):
     total_billed_amount: str
     errors_count: int
     details: List[BillingRecordResponse] = []
+

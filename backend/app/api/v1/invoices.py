@@ -178,3 +178,4 @@ def print_invoice(
         },
         "invoice": details,
     }
+

@@ -64,3 +64,4 @@ def list_billing_records(
         query = query.filter(BillingRecord.billing_status == status_filter)
 
     return query.order_by(BillingRecord.scheduled_date.desc()).offset(skip).limit(limit).all()
+

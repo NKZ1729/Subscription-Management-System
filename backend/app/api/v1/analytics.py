@@ -203,3 +203,4 @@ def get_finance_dashboard(
         recent_overdue_invoices=overdue_summaries,
         revenue_trend=revenue_trend,
     )
+

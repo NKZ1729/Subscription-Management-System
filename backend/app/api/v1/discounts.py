@@ -213,3 +213,4 @@ def delete_discount(
     discount.is_active = False
     db.commit()
     return {"message": f"Discount rule '{discount.discount_name}' has been deactivated"}
+

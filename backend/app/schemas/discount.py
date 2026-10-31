@@ -78,3 +78,4 @@ class DiscountResponse(DiscountBase):
 
     class Config:
         from_attributes = True
+
