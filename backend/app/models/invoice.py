@@ -73,3 +73,4 @@ class InvoiceDiscount(Base):
 
     invoice = relationship("Invoice", back_populates="discounts")
     discount = relationship("Discount")
+

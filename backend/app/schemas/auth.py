@@ -70,3 +70,4 @@ class PasswordResetConfirm(BaseModel):
         if not is_valid:
             raise ValueError(msg)
         return v
+

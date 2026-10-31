@@ -89,3 +89,4 @@ class SubscriptionLine(Base):
     product = relationship("Product")
     variant = relationship("ProductVariant")
     tax = relationship("Tax")
+

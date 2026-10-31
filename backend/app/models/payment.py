@@ -44,3 +44,4 @@ class PaymentAllocation(Base):
 
     payment = relationship("Payment", back_populates="allocations")
     invoice = relationship("Invoice", back_populates="allocations")
+

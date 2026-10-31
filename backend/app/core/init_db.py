@@ -50,3 +50,4 @@ if __name__ == "__main__":
         print("Database initialized and seeded successfully.")
     finally:
         db.close()
+

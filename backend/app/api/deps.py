@@ -80,3 +80,4 @@ def require_roles(allowed_roles: List[str]):
 require_admin = require_roles(["Admin"])
 require_staff_or_admin = require_roles(["Admin", "Staff"])
 require_customer = require_roles(["Customer"])
+

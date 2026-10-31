@@ -521,3 +521,4 @@ CREATE TABLE IF NOT EXISTS billing_records (
     CONSTRAINT unique_subscription_billing_period
         UNIQUE (subscription_id, billing_period_start, billing_period_end)
 );
+

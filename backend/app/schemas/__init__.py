@@ -9,6 +9,21 @@ from app.schemas.auth import (
 )
 from app.schemas.user import UserResponse, UserUpdate, RoleResponse
 from app.schemas.customer import CustomerResponse, CustomerCreate, CustomerUpdate
+from app.schemas.product import (
+    ProductCreate,
+    ProductUpdate,
+    ProductResponse,
+    VariantCreate,
+    VariantUpdate,
+    VariantResponse,
+)
+from app.schemas.plan import (
+    PlanCreate,
+    PlanUpdate,
+    PlanResponse,
+    PlanProductCreate,
+    PlanProductResponse,
+)
 
 __all__ = [
     "Token",
@@ -24,4 +39,15 @@ __all__ = [
     "CustomerResponse",
     "CustomerCreate",
     "CustomerUpdate",
+    "ProductCreate",
+    "ProductUpdate",
+    "ProductResponse",
+    "VariantCreate",
+    "VariantUpdate",
+    "VariantResponse",
+    "PlanCreate",
+    "PlanUpdate",
+    "PlanResponse",
+    "PlanProductCreate",
+    "PlanProductResponse",
 ]

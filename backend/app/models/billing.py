@@ -36,3 +36,4 @@ class BillingRecord(Base):
 
     subscription = relationship("Subscription", back_populates="billing_records")
     invoice = relationship("Invoice", back_populates="billing_record")
+

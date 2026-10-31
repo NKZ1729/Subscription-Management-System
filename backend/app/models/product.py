@@ -88,3 +88,4 @@ class PlanProduct(Base):
     plan = relationship("Plan", back_populates="plan_products")
     product = relationship("Product", back_populates="plan_products")
     variant = relationship("ProductVariant")
+

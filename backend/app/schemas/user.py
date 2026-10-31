@@ -32,3 +32,4 @@ class UserResponse(UserBase):
 class UserUpdate(BaseModel):
     full_name: Optional[str] = None
     is_active: Optional[bool] = None
+

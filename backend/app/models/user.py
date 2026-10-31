@@ -81,3 +81,4 @@ class PasswordResetToken(Base):
     created_at = Column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc), nullable=False)
 
     user = relationship("User", back_populates="reset_tokens")
+

@@ -67,3 +67,4 @@ class DiscountUsage(Base):
 
     discount = relationship("Discount", back_populates="usages")
     subscription = relationship("Subscription", back_populates="discount_usages")
+
