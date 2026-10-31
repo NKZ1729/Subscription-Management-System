@@ -450,3 +450,4 @@ def renew_subscription(
     db.commit()
     db.refresh(sub)
     return _compute_subscription_response(sub)
+

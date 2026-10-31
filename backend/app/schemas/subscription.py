@@ -79,3 +79,4 @@ class SubscriptionResponse(SubscriptionBase):
 
     class Config:
         from_attributes = True
+

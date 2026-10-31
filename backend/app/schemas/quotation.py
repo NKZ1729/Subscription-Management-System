@@ -58,3 +58,4 @@ class QuotationTemplateResponse(QuotationTemplateBase):
 
     class Config:
         from_attributes = True
+

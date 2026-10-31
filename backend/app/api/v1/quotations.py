@@ -179,3 +179,4 @@ def delete_quotation_template(
     template.is_active = False
     db.commit()
     return {"message": f"Template '{template.template_name}' has been deactivated"}
+
