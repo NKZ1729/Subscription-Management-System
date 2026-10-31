@@ -137,3 +137,18 @@ WHERE status = 'Completed';
 CREATE INDEX IF NOT EXISTS idx_billing_records_scheduled_date
 ON billing_records(scheduled_date)
 WHERE billing_status IN ('Pending', 'Failed');
+
+
+SELECT
+    COUNT(*) AS total_custom_indexes
+FROM pg_indexes
+WHERE schemaname = 'public'
+AND indexname LIKE 'idx_%';
+
+SELECT
+    tablename,
+    indexname
+FROM pg_indexes
+WHERE schemaname = 'public'
+AND indexname LIKE 'idx_%'
+ORDER BY tablename, indexname;
