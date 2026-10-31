@@ -1,2 +1,20 @@
-env
+# Environments
+env/
+venv/
 .env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases
+*.sqlite3
+*.db
+
+# IDEs
+.vscode/
+.idea/
